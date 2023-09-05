@@ -1,3 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.custom-placeholder-style::placeholder {
+  padding-left: 50px; 
+ 
+}
+.centered{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
 .App {
   text-align: center;
 }
